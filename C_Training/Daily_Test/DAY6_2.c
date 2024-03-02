@@ -4,13 +4,13 @@ Multiply two matrices according to the rule of matrix multiplication.
 
 Sample Input:
 
-3 2
+2 3
 
 1 2 3
 
 3 4 5
 
-3 2
+2 3
 
 1 2 3
 
@@ -18,11 +18,7 @@ Sample Input:
 
 Sample Output:
 
-9 12 15
-
-15 21 27
-
-24 33 42*/
+matrices cant be multiplied*/
 #include <stdio.h>
 
 
