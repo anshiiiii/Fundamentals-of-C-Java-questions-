@@ -94,3 +94,45 @@ int main()
    printf("%d",salary);
    return 0;
 }
+
+//simpler java program using array,loops and condtions
+// import java.util.Scanner;
+
+// public class JohnWatsonSalary {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+
+//         // Read input hours for each day
+//         int[] hoursWorked = new int[7];
+//         for (int i = 0; i < 7; i++) {
+//             hoursWorked[i] = scanner.nextInt();
+//         }
+
+//         // Calculate total hours worked
+//         int totalHours = 0;
+//         for (int i = 0; i < 7; i++) {
+//             totalHours += hoursWorked[i];
+//         }
+
+//         // Calculate salary
+//         int baseSalary = totalHours * 100;
+//         int extraPay = 0;
+//         for (int i = 0; i < 7; i++) {
+//             if (hoursWorked[i] > 8) {
+//                 extraPay += (hoursWorked[i] - 8) * 15;
+//             }
+//         }
+
+//         // Calculate bonus for Saturday and Sunday
+//         int saturdayHours = hoursWorked[5];
+//         int sundayHours = hoursWorked[6];
+//         int saturdayBonus = (int) (saturdayHours * 0.25 * 100);
+//         int sundayBonus = (int) (sundayHours * 0.5 * 100);
+
+//         // Total salary
+//         int totalSalary = baseSalary + extraPay + saturdayBonus + sundayBonus;
+
+//         // Print the result
+//         System.out.println(totalSalary);
+//     }
+// }
