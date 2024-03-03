@@ -44,3 +44,8 @@ int main()
   }
    return 0;
 }
+
+//explaination
+//If t is less than or equal to c, it’s in the first row.
+//If t % c is equal to 1, it’s in the first column.
+//If t % c is equal to 0, it’s in the last column.
