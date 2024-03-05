@@ -33,5 +33,6 @@ public class DAY4_2 {
         for (int i = n - 1; i >= 1; i--) {
             System.out.println(" ".repeat(n - i) + "*".repeat(2 * i - 1));
         }
+        scanner.close();
     }
 }

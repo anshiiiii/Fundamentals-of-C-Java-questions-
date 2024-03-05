@@ -49,5 +49,6 @@ public class DAY4_1 {
         }
         
         System.out.println("" + sum);
+        scanner.close();
     }
 }
