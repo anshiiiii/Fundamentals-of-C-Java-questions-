@@ -1,3 +1,6 @@
+package Java_Training.DailyTests;
+
+
 /* Write a Java Program to swap two string variables without using a third or temp variable.
 
 Input Format :

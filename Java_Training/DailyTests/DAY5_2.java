@@ -1,3 +1,5 @@
+package Java_Training.DailyTests;
+
 /*Gowri is doing her homework. She needs to write a paragraph about Modern History. During that time, she noticed that some words are get repeated again and again. She started counting the number of times a particular word gets repeated. Write a java program to get a string from the user. Count the number of times a word gets repeated in the string.
 
 

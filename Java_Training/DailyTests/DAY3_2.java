@@ -1,3 +1,5 @@
+package Java_Training.DailyTests;
+
 /*Naveen bought 2 bangles for his elder sister Ragavi, as a birthday gift. Before presenting the gift, Naveen challenges his sister to answer his question blindfolded. He places both the bangles on the table and asks Ragavi to answer two questions: 1) Are the two bangles intersecting or touching or not touching? 2) What is the distance between the centers of the bangles? To answer these questions, Naveen gives the centers C1(x1, y1) and C2(x2, y2) and radius R1 and R2 of the bangles. Now write a java program to help Ragavi to answer her brother's questions.
 
 

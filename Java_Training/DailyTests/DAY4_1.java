@@ -1,3 +1,5 @@
+package Java_Training.DailyTests;
+
 /*Write a Java Program to print addition of N numbers.
 
 
