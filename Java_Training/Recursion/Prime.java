@@ -21,7 +21,7 @@ public class Prime {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
 
-        Prime main = new Prime(); // Create an instance of Main
+        Prime main = new Prime(); 
         if (n < 2) {
             System.out.println("Not a Prime Number");
         } else {
