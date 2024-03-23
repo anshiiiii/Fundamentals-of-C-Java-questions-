@@ -28,32 +28,40 @@ Sample Output 0
 r
 
 */
-#include <stdio.h>
-#include <string.h>
 
-int main() {
-    char str[100];
-    int count[256] = {0};  //to count the characters in the string
+package Java_Training.Strings;
 
-    scanf("%s", str);
+import java.util.Scanner;
+class Main 
+{
+    public static void main(String[] args) 
+    {
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.next();
 
-    for(int i = 0; str[i] != '\0'; i++) {
-        count[(int)str[i]]++;
-    }
+        int[] count = new int[256];
 
-  
-    int found = 0;
-    for(int i = 0; str[i] != '\0'; i++) {
-        if(count[(int)str[i]] == 1) {
-            printf("%c\n", str[i]);
-            found = 1;
-            break;
+        for (int i = 0; i < str.length(); i++) 
+        {
+            count[(int) str.charAt(i)]++;
         }
-    }
 
-    if(!found) {
-        printf("All the characters are repetitive\n");
-    }
+        boolean found = false;
+        for (int i = 0; i < str.length(); i++) 
+        {
+            if (count[(int) str.charAt(i)] == 1) 
+            {
+                System.out.println(str.charAt(i));
+                found = true;
+                break;
+            }
+        }
 
-    return 0;
+        if (!found) 
+        {
+            System.out.println("All the characters are repetitive");
+        }
+        scanner.close();
+    }
 }
+
