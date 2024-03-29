@@ -61,4 +61,47 @@ class Main {
         scanner.close();
     }
 }
+/*import java.util.Scanner;
 
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int numRows = scanner.nextInt();
+
+        generatePascalsTriangle(numRows);
+    }
+
+    public static void generatePascalsTriangle(int numRows) {
+        if (numRows <= 0) {
+            System.out.println("Invalid Input");
+            return;
+        }
+
+
+        int[][] triangle = new int[numRows][];
+        triangle[0] = new int[]{1};
+
+        for (int i = 1; i < numRows; i++) {
+            final int[] prevRow = triangle[i - 1];
+            triangle[i] = new int[i + 1];
+            triangle[i][0] = 1;
+
+          
+            for (int j = 1; j < i; j++) {
+                triangle[i][j] = prevRow[j - 1] + prevRow[j];
+            }
+
+            triangle[i][i] = 1;
+        }
+
+     
+        for (int[] row : triangle) {
+            for (int num : row) {
+                System.out.print(num + " ");
+            }
+            System.out.println();
+        }
+    }
+}*/
